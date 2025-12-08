@@ -2,7 +2,7 @@
 url=$1
 
 #Clear redundant setup files
-path = "/data/data/com.termux/files/home/Youtube-Downloader-Android"
+path="/data/data/com.termux/files/home/Youtube-Downloader-Android"
 if [ -d "$path" ]; then
     rm -rf "$path"
 fi
